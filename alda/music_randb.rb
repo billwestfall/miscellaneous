@@ -2,7 +2,7 @@
 
 print "piano: (tempo 5) "
   $i = 0
-    while $i < 640 do
+    while $i < 200 do
       print [ :o2, :o3, :o4, :o5, :o6, :o7, :o8].sample
       print " "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
@@ -17,7 +17,7 @@ puts ""
 puts ""
 print "piano: (tempo 5) "
   $i = 0
-    while $i < 640 do
+    while $i < 200 do
       print [ :o2, :o3, :o4].sample
       print " "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
@@ -32,7 +32,7 @@ puts ""
 puts ""
 print "piano: (tempo 5) "
   $i = 0
-    while $i < 640 do
+    while $i < 200 do
       print [ :o2, :o3, :o4, :o5].sample
       print " "
       print [ :a, :b, :c, :d, :e, :f, :g, ].sample
